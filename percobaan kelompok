@@ -24,80 +24,80 @@ void setup() {
 }
 
 void loop() {
-// Muh. Risdar Norhidayatullah
-  risdar(0); 
+// Inka Febrianti
+  inka(1); 
   delay(1000);
-  risdar(5);
+  inka(6);
   delay(1000);
-  risdar(10);
+  inka(10);
   delay(1000);
-  risdar(0); 
+  inka(0); 
   delay(1000);
-  risdar(4); 
+  inka(2); 
   delay(1000);
-  risdar(10);
+  inka(10);
   delay(1000);
-  risdar(2); 
+  inka(2); 
   delay(1000);
-  risdar(0); 
+  inka(0); 
   delay(1000);
-  risdar(0); 
+  inka(0); 
   delay(1000);
-  risdar(2); 
+  inka(1); 
   delay(1000);
-  risdar(10);
+  inka(10);
   delay(1500);
 
-// Muhammad Anas Punggawa
-  anas(1); 
+// St. Azizia Musmulyadi
+  azizia(2); 
   delay(1000);
-  anas(7);
+  azizia(7);
   delay(1000);
-  anas(10);
+  azizia(10);
   delay(1000);
-  anas(0); 
+  azizia(0); 
   delay(1000);
-  anas(8); 
+  azizia(3); 
   delay(1000);
-  anas(10);
+  azizia(10);
   delay(1000);
-  anas(2); 
+  azizia(2); 
   delay(1000);
-  anas(0); 
+  azizia(0); 
   delay(1000);
-  anas(0); 
+  azizia(0); 
   delay(1000);
-  anas(1); 
+  azizia(1); 
   delay(1000);
-  anas(10);
+  azizia(10);
   delay(1500);
 
-//Andi Muh. Mappanganro
-  angga(1); 
+//Azwar Anas
+  azwar(3); 
   delay(1000);
-  angga(7);
+  azwar(3);
   delay(1000);
-  angga(10);
+  azwar(10);
   delay(1000);
-  angga(1); 
+  azwar(1); 
   delay(1000);
-  angga(2); 
+  azwar(0); 
   delay(1000);
-  angga(10);
+  azwar(10);
   delay(1000);
-  angga(1); 
+  azwar(1); 
   delay(1000);
-  angga(9); 
+  azwar(9); 
   delay(1000);
-  angga(9); 
+  azwar(9); 
   delay(1000);
-  angga(9); 
+  azwar(9); 
   delay(1000);
-  angga(10);
+  azwar(10);
   delay(3000);
 }
 
-void risdar(byte baris) {
+void inka(byte baris) {
   digitalWrite(POW1,0);
   digitalWrite(POW2,1);
   digitalWrite(POW3,1);
@@ -108,7 +108,7 @@ void risdar(byte baris) {
  }
 }
 
-void anas(byte baris) {
+void azizia(byte baris) {
   digitalWrite(POW1,1);
   digitalWrite(POW2,0);
   digitalWrite(POW3,1);
@@ -119,7 +119,7 @@ void anas(byte baris) {
  }
 }
 
-void angga(byte baris) {
+void azwar(byte baris) {
   digitalWrite(POW1,1);
   digitalWrite(POW2,1);
   digitalWrite(POW3,0);
